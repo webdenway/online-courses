@@ -11,12 +11,12 @@ const Cart = (props) => {
         
     }
    
-    let x= Number(total);
+    
     return (
         <div className="card">
             <h3>Order Details</h3>
             <h4>Course Purchased : {cart.length} </h4>
-            <h4>Total Price : {x}</h4>
+            <h4>Total Price : {total}</h4>
 
             
         </div>
